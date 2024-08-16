@@ -91,8 +91,11 @@ class BudgetForm extends React.Component {
 
   async handleCalculate() {
     if (this.validate()) {
+      // Clear any previous result before making a new request
+      this.setState({ result: null });
+  
       const adBudgets = this.state.budgets.split(',').map(num => parseFloat(num.trim()));
-
+  
       try {
         const response = await fetch('http://localhost:5230/api/AdBudget/calculate', {
           method: 'POST',
@@ -107,21 +110,25 @@ class BudgetForm extends React.Component {
             OtherAdBudgets: adBudgets
           })
         });
-
+  
         if (!response.ok) {
           const errorText = await response.text();
           console.error('Response error:', errorText);
           throw new Error(`Network response was not ok: ${response.statusText}`);
         }
-
+  
         const data = await response.json();
         this.setState({ result: data, error: null });
       } catch (error) {
         console.error('Error during fetch:', error);
         this.setState({ error: 'Error calculating the budget. Please check your input values.', result: null });
       }
+    } else {
+      // Set error to null if validation fails
+      this.setState({ result: null });
     }
   }
+  
 
   render() {
     return (

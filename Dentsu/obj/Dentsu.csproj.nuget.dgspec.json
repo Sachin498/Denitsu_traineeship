@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dentsu\\Dentsu\\Dentsu.csproj": {}
+    "D:\\Denitsu_traineeship\\Dentsu\\Dentsu.csproj": {}
   },
   "projects": {
-    "D:\\Dentsu\\Dentsu\\Dentsu.csproj": {
+    "D:\\Denitsu_traineeship\\Dentsu\\Dentsu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dentsu\\Dentsu\\Dentsu.csproj",
+        "projectUniqueName": "D:\\Denitsu_traineeship\\Dentsu\\Dentsu.csproj",
         "projectName": "Dentsu",
-        "projectPath": "D:\\Dentsu\\Dentsu\\Dentsu.csproj",
+        "projectPath": "D:\\Denitsu_traineeship\\Dentsu\\Dentsu.csproj",
         "packagesPath": "C:\\Users\\Sachin\\.nuget\\packages\\",
-        "outputPath": "D:\\Dentsu\\Dentsu\\obj\\",
+        "outputPath": "D:\\Denitsu_traineeship\\Dentsu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sachin\\AppData\\Roaming\\NuGet\\NuGet.Config"
