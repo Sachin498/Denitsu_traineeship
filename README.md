@@ -86,16 +86,13 @@ The backend is configured to allow requests from the React app running on http:/
 The application calculates and displays the maximum budget for the specific ad that fits within the total budget.
 
 ### Test Case 2: Exceeding total budget
-[![Alt text](/Screenshots/Invalid 1.png)
+[![Alt text](/Screenshots/Invalid_1.png)
 
 ### Test Case 3: Insufficient ads
-[![Alt text](/Screenshots/Invalid 2.png)
+[![Alt text](/Screenshots/Invalid_2.png)
 
 ### Test Case 4: Budget for ads exceeding total Budget
-[![Alt text](/Screenshots/Invalid 3.png)
+[![Alt text](/Screenshots/Invalid_3.png)
 
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
